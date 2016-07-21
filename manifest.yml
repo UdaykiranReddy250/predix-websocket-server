@@ -1,0 +1,6 @@
+applications:
+- name: predix-websocket-server
+  instances: 1
+  memory: 512M
+  timeout: 180
+  path: target/predix-websocket-server-2.0.0.jar
